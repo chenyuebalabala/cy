@@ -1,0 +1,131 @@
+.z-bgvideo{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+.z-bgvideo img{
+    position: absolute;
+    top: 100px;
+    left: 15%;
+}
+.z-indexmain{
+    width: 100%;
+    background: linear-gradient( to bottom, #95a6ae 0%, #1c263a 100% );
+}
+.z-indexfist{
+    width: 1200px;
+    height: 408px;
+    margin: -150px auto 0;
+    overflow: hidden;
+}
+.z-indexfist{
+    width: 1200px;
+    overflow: hidden;
+}
+.z-indexfist .z-indexhover{
+    width: 340px;
+    height: 408px;
+    float: left;
+    margin: 0 30px;
+    box-shadow: 29px rgba( 0, 0, 0, 0.62.86px 6.67px 14.7 );
+    position: relative;
+    overflow: hidden;
+}
+.z-indexfist .z-indexhover img{
+    width: 340px;
+    height: 408px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.z-indexfist .z-indexhover .z-indexmove{
+    width: 340px;
+    height: 408px;
+    position: absolute;
+    left: 0;
+    top: 408px;
+    overflow: hidden;
+    background: linear-gradient( to bottom, #294971 0%, #113158 100% );
+}
+.z-indexfist .z-indexhover video{
+    width: 340px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.z-indexfist .z-indexhover .z-indexmove .z-indexbuycar{
+    width: 152px;
+    height: 39px;
+    background:linear-gradient( to bottom, #a4d007 5%, #536904 95%);
+    position: absolute;
+    left: 7%;
+    bottom: 5%;
+    font-size: 15px;
+    text-align: center;
+    line-height: 39px;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #D2E885;
+}
+.z-indexfist .z-indexhover .z-indexmove .z-indexbuycar:hover{
+    color: #fff;
+    background-color: #D2E885;
+}
+.z-indexfist .z-indexhover .z-indexmove .z-information{
+    position: absolute;
+    top: 210px;
+    left: 40px;
+}
+.z-indexfist .z-indexhover .z-indexmove .z-information h3{
+    font-weight: bolder;
+    color: #fff;
+    font-size: 25px;
+}
+.z-indexfist .z-indexhover .z-indexmove .z-information p{
+    color: #959595;
+    line-height: 20px;
+}
+
+
+.z-indexfist .z-indexhover .z-indexprice{
+    width: 120px;
+    height: 30px;
+    background-color: #000;
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+    cursor: pointer;
+    z-index: 20;
+}
+.z-indexfist .z-indexhover .z-indexprice h2{
+    height: 30px;
+    width: 40px;
+    background-color:  #A1CD44;
+    float: left;
+    color: #000;
+    text-align: center;
+    line-height: 30px;
+    font-size: 13px;
+    font-weight: bolder;
+}
+.z-indexfist .z-indexhover .z-indexprice p span:first-child{
+    text-decoration: line-through;
+    color: #848e94;
+    line-height: 30px;
+    font-size: 14px;
+}
+.z-indexfist.z-indexhover .z-indexprice p span:last-child{
+    color: #fff;
+    font-weight: bolder;
+    line-height: 30px;
+    font-size: 14px;
+}
+.z-indexmain .z-vote{
+    width: 1200px;
+    height: 160px;
+    margin: 100px auto 0;
+}
+.z-indexmain .z-vote img{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.c3_wrap {
+  font-family: "Motiva Sans", Sans-serif;
+  color: #c6d4df;
+  font-size: 14px;
+  display: block;
+  background: #0e1a2a;
+}
+.c3_wrap .c3_main {
+  margin-top: 100px;
+  position: relative;
+  min-height: 450px;
+  width: 950px;
+  margin: 0 auto;
+}
+.c3_wrap .c3_main .c2_kefu {
+  padding-top: 25px;
+}
+.c3_wrap .c3_main .c2_kefu h2 {
+  font-size: 28px;
+  font-weight: normal;
+  color: #e5e7e9;
+  margin-top: 10px;
+}
+.c3_wrap .c3_main .c2_kefu h4 {
+  font-size: 22px;
+  color: #4481a6;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.c3_wrap .c3_main .c3_main1 {
+  position: relative;
+  border: 1px solid #3b718d;
+  width: 720px;
+  height: 355px;
+}
+.c3_wrap .c3_main .c3_main1 .c3_content {
+  list-style: none;
+  width: 700px;
+  height: 250px;
+  margin: 5px auto;
+  border: 1px solid #3b718d;
+  overflow-y: auto;
+  padding-top: 5px;
+}
+.c3_wrap .c3_main .c3_main1 .c3_content .c3_msgContent {
+  width: auto;
+  max-width: 500px;
+  height: auto;
+  word-break: break-all;
+  margin: 5px;
+  padding: 3px;
+  border-radius: 5px;
+  color: #99a7b3;
+}
+.c3_wrap .c3_main .c3_main1 .c3_content .c3_left {
+  float: left;
+  text-align: left;
+  background: #445468;
+}
+.c3_wrap .c3_main .c3_main1 .c3_content .c3_right {
+  float: right;
+  text-align: right;
+  background-color: #445468;
+}
+.c3_wrap .c3_main .c3_main1 .c3_msgInput {
+  display: block;
+  width: 700px;
+  height: 45px;
+  margin: 10px auto;
+  background: #0e1a2a;
+  border: 1px solid #3b718d;
+  color: #99a7b3;
+}
+.c3_wrap .c3_main .c3_main1 .c3_sendbtn {
+  position: absolute;
+  width: 100px;
+  height: 29px;
+  bottom: 5px;
+  right: 10px;
+  background: #3b718d;
+}
+.c3_wrap .c3_main .c3_line {
+  height: 41px;
+  width: 712px;
+  border-top: 1px solid #3b718d;
+  border-bottom: 1px solid #3b718d;
+  padding: 11px 0;
+  margin-top: 11px;
+}
+.c3_wrap .c3_main .c3_line .c3_sell {
+  background: #445468;
+  height: 41px;
+  width: 712px;
+  line-height: 41px;
+  background-image: url("https://help.steampowered.com/public/images/arrow_right.png");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  background-size: auto 16px;
+  cursor: pointer;
+}
+.c3_wrap .c3_main .c3_line .c3_sell img {
+  float: left;
+  height: 35px;
+  width: 35px;
+  margin-left: 6px;
+  margin-top: 3px;
+}
+.c3_wrap .c3_main .c3_line .c3_sell span {
+  margin-left: 8px;
+  font-size: 15px;
+  color: white;
+}
+.c3_wrap .c3_main .c3_line .c3_sell:hover {
+  background: #4481a6;
+}
+.c3_wrap .c3_main .c3_sell1 {
+  background-image: url("https://help.steampowered.com/public/images/arrow_right.png");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  background-size: auto 16px;
+  display: block;
+  max-width: 712px;
+  height: 63px;
+  line-height: 63px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  padding-right: 30px;
+  font-size: 15px;
+  color: white;
+  background-color: #445468;
+  text-decoration: none;
+  cursor: pointer;
+}
+.c3_wrap .c3_main .c3_sell1 span {
+  margin: 20px 14px 20px 14px;
+  display: block;
+  overflow: hidden;
+  font-size: 15px;
+  color: white;
+}
+.c3_wrap .c3_main .c3_sell1:hover {
+  background: #4481a6;
+}
+.c3_wrap .c3_main .c3_input {
+  height: 54px;
+  width: 712px;
+  font-family: "Motiva Sans", Sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 24px;
+  color: #c6d4df;
+  padding: 10px;
+  background-color: #324965;
+  border: 1px solid #000;
+  box-shadow: 1px 1px 0 #45556c;
+  box-sizing: border-box;
+  margin: 60px 0 30px 0;
+}
+
+/*# sourceMappingURL=chat.css.map */

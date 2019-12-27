@@ -1,0 +1,253 @@
+
+.z-buycar{
+    width: 100%;
+    background-color: #434953;
+}
+.z-buycarmain{
+    width: 940px;
+    margin: 0 auto;
+}
+.z-buycarlist{
+    padding-top: 100px;
+    color: #eee;
+    line-height: 16px;
+    
+}
+.z-buycartitle{
+    font-size: 34px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.z-carmain{
+    width: 940px;
+    background-color: #434953;
+    margin: 0 auto;
+    border-top: 1px solid #333;
+    box-shadow: 0 10px 10px 10px #333;
+    overflow: hidden;
+}
+.z-buycarleft {
+    width: 616px;
+    float: left;
+    margin-top: 40px;
+}
+.z-buycarleft li{
+    width: 616px;
+    height: 77px;
+    background-color: #222;
+    opacity: 0.7;
+    color: #fff;
+    padding: 0 16px;
+    margin-bottom: 5px;
+    float: left;
+    box-sizing: border-box;
+}
+.z-buycarleft li img{
+    width: 120px;
+    height: 45px;
+    margin: 16px 0;
+}
+.z-buycarleft li span{
+    padding: 23px 15px 0;
+    display: inline-block;
+}
+.z-buycarprice{
+    float: right;
+    padding: 15px 0;
+}
+.z-buycarprice .z-brforediscount{
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #56707f;
+}
+.z-buycarprice .z-removebuycar{
+    font-size: 12px;
+    color: #56707f;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.z-buycarprice .z-afteriscount{
+    font-size: 14px;
+}
+.z-carmain .z-focus{
+    float: right;
+    margin-top: 40px;
+}
+.z-carmain h1{
+
+    color: #eee;
+    width: 308px;
+    font-size: 17px;
+    padding: 10px 0;
+}
+.z-carmain .z-buycarfocus{
+    width: 308px;
+    height: 395px;
+    background-color: #222;
+    opacity: 0.7;
+}
+.z-carmain .z-buy{
+    width: 616px;
+    padding: 16px;
+    box-sizing: border-box;
+    height: 222px;
+    background-color: #222;
+    opacity: 0.7;
+    float: left;
+}
+.z-carmain .z-buy .z-allprice{
+    font-size: 14px;
+    color: #eee;
+    padding: 10px 0 20px 380px;
+    border-bottom: 1px solid #fff;
+}
+.z-carmain .z-buy .z-allprice span:first-child{
+    padding-right: 105px;
+}
+.z-carmain .z-buy p:nth-child(2){
+    color: #ffcc6a;
+    padding: 20px 0;
+}
+.z-carmain .z-buy p:nth-child(3){
+    color: #eee;
+    padding: 20px 0;
+}
+.z-carmain .z-buy .z-buybtn a{
+    font-size: 14px;
+    padding: 5px 10px;
+    display: inline-block;
+    background:linear-gradient( to bottom, rgba(121,153,5,1) 5%, rgba(83,105,4,1) 95%); 
+    color:  #D2E885;
+    float: right;
+    margin: 0 20px 15px ;
+}
+.z-carmain .z-removeall{
+    display: block;
+    float: right;
+    color: #56707f;
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.z-carmain .z-shopping{
+    width: 616px;
+    float: left;
+    overflow: hidden;
+}
+.z-carmain .z-shopping .z-shoppingbtn{
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #67c1f5;
+    background-color: #56707f;
+    float: left;
+    margin-top: 12px;
+}
+.z-carmain .z-delivery{
+    float: left;
+    width: 616px;
+    height: 123px;
+    margin-top: 50px;
+}
+.z-carmain .z-delivery h2{
+    padding: 10px 0;
+    font-size: 15px;
+    color: #fff;
+}
+.z-carmain .z-delivery .z-buycarcart{
+    width: 616px;
+    height: 89px;
+    background-color: #222;
+    opacity: 0.7;
+    padding: 16px;
+    box-sizing: border-box;
+}
+.z-carmain .z-delivery .z-buycarcart img{
+    width: 68px;
+    height: 57px;
+    float: left;
+    padding-right: 10px;
+}   
+.z-carmain .z-delivery .z-buycarcart h2{
+    float: left;
+}
+.z-carmain .z-recommended{
+    width: 308px;
+    margin-top: 50px;
+    float: right;
+}
+.z-carmain .z-recommended h2{
+    font-size: 15px;
+    color: #eee;    
+}
+.z-carmain .z-recommended p{
+    font-size: 13px;
+    color: #67c1f5;
+    padding-bottom: 5px;
+}
+.z-carmain .z-recommended .z-recommendedgame{
+    width: 152px;
+    height: 95px;
+    background-color: #222;
+    opacity: 0.7;
+    float: left;
+    margin: 0 2px 2px 0;
+    padding: 16px;
+    box-sizing: border-box;
+}
+.z-carmain .z-recommended .z-recommendedgame img{
+    width: 120px;
+    height: 45px;
+}
+.z-buycarmask{
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    opacity: 0.5;
+    z-index: 200;
+    position: absolute;
+    top: 50%;
+    display: none;
+}
+.z-buycarmask .z-changeremove{
+    width: 500px;
+    height: 126px;
+    background-color: #171a21;
+    opacity: 1;
+    border-top: 1px solid lightblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -63px;
+    padding: 32px;
+    box-sizing: border-box;
+}
+.z-buycarmask .z-changeremove h3{
+    color: #eee;
+}
+.z-buycarmask .z-changeremove .z-yes{
+    width: 47px;
+    height: 31px;
+    background: linear-gradient( to bottom, #a4d007 5%, #536904 95%);
+    color: #D2E885;
+    text-align: center;
+    line-height: 31px;
+    position: absolute;
+    right: 90px;
+    bottom: 30px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.z-buycarmask .z-changeremove .z-no{
+    width: 47px;
+    height: 31px;
+    background: linear-gradient( to bottom, #acb5bd 5%, #414a52 95%);
+    color: #fff;
+    text-align: center;
+    line-height: 31px;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    border-radius: 3px;
+    cursor: pointer;
+}

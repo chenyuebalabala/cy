@@ -1,0 +1,201 @@
+.w-main{
+    width: 100%;
+    min-height: 600px;
+    background:#1a2838;
+}
+.w-main .w-main-cen{
+    width: 940px;
+    min-height: 600px;
+    margin: 0 auto;
+}
+.w-main .w-main-cen-top{
+    height: 90px;
+}
+.w-main .w-main-cen-cen{
+    width: 615px;
+    height: 45px;
+    border: 2px solid #b44040;
+    margin-bottom: 7px;
+    padding: 3px 16px;
+    display: none;
+    background: #0d141c;
+}
+.w-main .w-main-cen-cen p{
+    padding: 1px 0;
+    color: #bad6dd;
+    font-size: 14px;
+    
+}
+.w-main .w-main-cen-top a{
+    display: block;
+    color: #8e9295;
+    font-size: 14px;
+    padding: 15px 0 2px 0;
+}
+.w-main .w-main-cen-top h1{
+    color: #bad6dd;
+    font-size: 30px;
+    font-weight: normal;
+}
+.w-main .w-main-cen-bot{
+    min-height: 850px;
+}
+.w-main .w-main-cen-le{
+    width: 600px;
+    /* height: 850px; */
+    background: #16202c;
+    float: left;
+    padding: 20px 16px;
+}
+.w-main .w-main-cen-le h2{
+    color: #bad6dd;
+    font-size: 12px;
+    font-weight: normal;
+    margin-bottom: 3px;
+
+}
+.w-main .w-main-cen-le form input{
+    margin-bottom: 15px;
+    width: 220px;
+    height: 26px;
+    background: #121a24;
+    /* background-color: rgba(0,0,0,0.2); */
+    border: 1px solid #010000;
+    box-shadow: 1px 1px 0px #44566e;
+    border-radius: 3px;
+    /* outline: #4b72b5; */
+    color: white;
+    padding-left: 5px;
+}
+.w-main .w-main-cen-le form i{
+    font-style: normal;
+    color: #fff;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.w-main .w-main-cen-le form  span{
+    color: #fff;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.w-main .w-main-cen-le select{
+    width: 223px;
+    height: 26px;
+    border-radius: 3px;
+    background: #bbbdc1;
+}
+.w-main .w-main-cen-le .w-yz{
+    /* height: 68px; */
+    border-top: 1px solid #44566e;
+    /* border-bottom: 1px solid #44566e; */
+    margin-top: 12px;
+}
+.w-main .w-main-cen-le h3{
+    color: #bad6dd;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 16px 0;
+}
+.w-main .w-main-cen-le .w-xieyi{
+    width: 584px;
+    height: 316px;
+    background: #16202c;
+    color: #bad6dd;
+    padding: 20px 10px;
+    border: 1px solid #44566e;
+    overflow-y: scroll;
+}
+.w-main .w-main-cen-le .w-xieyi h4{
+    font-size: 20px;
+    font-weight: normal;
+
+}
+.w-main .w-main-cen-le .w-xieyi li{
+    font-size: 10px;
+}
+.w-main .w-main-cen-le .w-xieyi p{
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+.w-main .w-main-cen-le .w-check{
+    width: 11px;
+    height: 11px;
+    background: white;
+}
+.w-main .w-main-cen-le h5{
+    margin: 5px;
+}
+.w-main .w-main-cen-le span{
+    color: #bad6dd;
+    font-size: 12px;
+    padding-left: 5px;
+}
+.w-main .w-main-cen-le h6 a{
+    margin-top: 7px;
+    display: inline-block;
+    color: white;
+}
+.w-main .w-main-cen-le h6 a:hover{
+    color: #45a6e4;
+}
+.w-main .w-main-cen-le h6 .w-butt{
+    width: 64px;
+    height: 31px;
+    background: #264054;
+    color: #45a6e4;
+    float: right;
+    cursor: pointer;
+    text-align: center;
+    line-height: 31px;
+    border-radius: 3px;
+    margin-right: 7px;
+    font-size: 14px;
+}
+.w-main .w-main-cen-le h6 .w-butt:hover{
+    background: #46b7f5;
+    color: white;
+}
+
+
+
+.w-main .c_main_right {
+    width: 297px;
+    height: 394px;
+    background: #16202d;
+    float: right;
+    box-sizing: border-box;
+    padding: 16px;
+  }
+  .w-main .c_main_right .c_main_title2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 0 10px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    padding-top: 2px;
+  }
+  .w-main .c_main_right ul {
+    padding-left: 16px;
+    list-style-type: square;
+    line-height: 22px;
+    color: #c6d4df;
+    font-size: 12px;
+  }
+  .w-main .c_main_forget {
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  .w-main .c_main_more {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    display: block;
+    padding-left: 16px;
+    padding: 50px 0;
+    font-weight: normal;
+  }
