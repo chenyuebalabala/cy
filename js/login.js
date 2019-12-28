@@ -4,7 +4,7 @@ var c_btn1=document.querySelector('.c_btn1');
 var c_btn2=document.querySelector('.c_btn2');
 
 
-cc_btn1.onclick=function(){
+c_btn1.onclick=function(){
     ajax({
     url: './data/login.php',
     type: 'get',
